@@ -1,0 +1,14 @@
+# This file was generated based on ".graphqlconfig". Do not edit manually.
+
+schema {
+    query: RootQuery
+}
+
+type Post {
+    id: Int
+    text: String
+}
+
+type RootQuery {
+    posts: [Post]
+}

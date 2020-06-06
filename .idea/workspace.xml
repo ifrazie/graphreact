@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="27a0e5cf-d35f-4524-8a01-aa4c2712e0b2" name="Default Changelist" comment="" />
+    <list default="true" id="27a0e5cf-d35f-4524-8a01-aa4c2712e0b2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/App.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,21 +16,29 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ZtggwWf90qqa2i9TEj8iwDvjyh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Blockchain" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
@@ -36,7 +50,17 @@
       <recent name="H:\Documents\projects\graphbook\src" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.server">
+    <configuration name="analyze" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="analyze" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="client" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -47,8 +71,42 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="client:build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="client:build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="server" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="server" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="stats" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="stats" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.server" />
+        <item itemvalue="npm.analyze" />
+        <item itemvalue="npm.stats" />
+        <item itemvalue="npm.client:build" />
         <item itemvalue="npm.client" />
       </list>
     </recent_temporary>
@@ -63,34 +121,46 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585663918373</updated>
-      <workItem from="1585663919849" duration="7375000" />
+      <workItem from="1585663919849" duration="8024000" />
+      <workItem from="1585912265532" duration="638000" />
+      <workItem from="1585920038224" duration="595000" />
+      <workItem from="1586841453340" duration="349000" />
+      <workItem from="1591433769798" duration="16034000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="874" y="465" key="#com.intellij.ide.util.TreeDirectoryChooserDialog" timestamp="1591465751642">
+      <screen x="0" y="0" width="2048" height="1050" />
+    </state>
+    <state x="874" y="465" key="#com.intellij.ide.util.TreeDirectoryChooserDialog/0.0.2048.1050/-1920.0.1920.1050@0.0.2048.1050" timestamp="1591465751642" />
     <state x="803" y="153" key="#index.html" timestamp="1585664515880">
       <screen x="0" y="0" width="2048" height="1050" />
     </state>
     <state x="803" y="153" key="#index.html/0.0.2048.1050/-1920.0.1920.1050@0.0.2048.1050" timestamp="1585664515880" />
-    <state width="2028" height="265" key="GridCell.Tab.0.bottom" timestamp="1585671726215">
+    <state x="805" y="280" key="FileChooserDialogImpl" timestamp="1586841804117">
       <screen x="0" y="0" width="2048" height="1050" />
     </state>
-    <state width="2028" height="265" key="GridCell.Tab.0.bottom/0.0.2048.1050/-1920.0.1920.1050@0.0.2048.1050" timestamp="1585671726215" />
-    <state width="2028" height="265" key="GridCell.Tab.0.center" timestamp="1585671726215">
+    <state x="805" y="280" key="FileChooserDialogImpl/0.0.2048.1050/-1920.0.1920.1050@0.0.2048.1050" timestamp="1586841804117" />
+    <state width="2027" height="279" key="GridCell.Tab.0.bottom" timestamp="1591467925248">
       <screen x="0" y="0" width="2048" height="1050" />
     </state>
-    <state width="2028" height="265" key="GridCell.Tab.0.center/0.0.2048.1050/-1920.0.1920.1050@0.0.2048.1050" timestamp="1585671726215" />
-    <state width="2028" height="265" key="GridCell.Tab.0.left" timestamp="1585671726215">
+    <state width="2027" height="279" key="GridCell.Tab.0.bottom/0.0.2048.1050/-1920.0.1920.1050@0.0.2048.1050" timestamp="1591467925248" />
+    <state width="2027" height="279" key="GridCell.Tab.0.center" timestamp="1591467925248">
       <screen x="0" y="0" width="2048" height="1050" />
     </state>
-    <state width="2028" height="265" key="GridCell.Tab.0.left/0.0.2048.1050/-1920.0.1920.1050@0.0.2048.1050" timestamp="1585671726215" />
-    <state width="2028" height="265" key="GridCell.Tab.0.right" timestamp="1585671726215">
+    <state width="2027" height="279" key="GridCell.Tab.0.center/0.0.2048.1050/-1920.0.1920.1050@0.0.2048.1050" timestamp="1591467925248" />
+    <state width="2027" height="279" key="GridCell.Tab.0.left" timestamp="1591467925248">
       <screen x="0" y="0" width="2048" height="1050" />
     </state>
-    <state width="2028" height="265" key="GridCell.Tab.0.right/0.0.2048.1050/-1920.0.1920.1050@0.0.2048.1050" timestamp="1585671726215" />
+    <state width="2027" height="279" key="GridCell.Tab.0.left/0.0.2048.1050/-1920.0.1920.1050@0.0.2048.1050" timestamp="1591467925248" />
+    <state width="2027" height="279" key="GridCell.Tab.0.right" timestamp="1591467925248">
+      <screen x="0" y="0" width="2048" height="1050" />
+    </state>
+    <state width="2027" height="279" key="GridCell.Tab.0.right/0.0.2048.1050/-1920.0.1920.1050@0.0.2048.1050" timestamp="1591467925248" />
     <state x="526" y="168" key="SettingsEditor" timestamp="1585667737143">
       <screen x="0" y="0" width="2048" height="1050" />
     </state>
