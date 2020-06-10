@@ -3,8 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="27a0e5cf-d35f-4524-8a01-aa4c2712e0b2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/services/graphql/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/services/graphql/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/server/services/graphql/resolvers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/services/graphql/resolvers.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/server/services/graphql/schema.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/services/graphql/schema.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/services/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/services/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,19 +42,20 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Blockchain" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../graphql_test" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="H:\Documents\projects\graphbook\src\server" />
       <recent name="H:\Documents\projects\graphbook" />
       <recent name="H:\Documents\projects\graphbook\src\client" />
       <recent name="H:\Documents\projects\graphbook\src" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.server">
+  <component name="RunManager" selected="npm.server:build">
     <configuration name="analyze" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -69,21 +76,21 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="client:build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="client:build" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
     <configuration name="server" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
         <script value="server" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="server:build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="server:build" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -101,11 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.server:build" />
         <item itemvalue="npm.server" />
         <item itemvalue="npm.client" />
         <item itemvalue="npm.analyze" />
         <item itemvalue="npm.stats" />
-        <item itemvalue="npm.client:build" />
       </list>
     </recent_temporary>
   </component>
@@ -124,7 +131,13 @@
       <workItem from="1585920038224" duration="595000" />
       <workItem from="1586841453340" duration="349000" />
       <workItem from="1591433769798" duration="17889000" />
-      <workItem from="1591475208446" duration="4069000" />
+      <workItem from="1591475208446" duration="4402000" />
+      <workItem from="1591576671150" duration="702000" />
+      <workItem from="1591579915738" duration="29841000" />
+      <workItem from="1591689742130" duration="633000" />
+      <workItem from="1591692644379" duration="4561000" />
+      <workItem from="1591714107238" duration="2082000" />
+      <workItem from="1591776102848" duration="531000" />
     </task>
     <servers />
   </component>
@@ -140,26 +153,26 @@
       <screen x="0" y="0" width="2048" height="1050" />
     </state>
     <state x="803" y="153" key="#index.html/0.0.2048.1050/-1920.0.1920.1050@0.0.2048.1050" timestamp="1585664515880" />
-    <state x="805" y="280" key="FileChooserDialogImpl" timestamp="1586841804117">
+    <state x="805" y="280" key="FileChooserDialogImpl" timestamp="1591711806592">
       <screen x="0" y="0" width="2048" height="1050" />
     </state>
-    <state x="805" y="280" key="FileChooserDialogImpl/0.0.2048.1050/-1920.0.1920.1050@0.0.2048.1050" timestamp="1586841804117" />
-    <state width="2027" height="279" key="GridCell.Tab.0.bottom" timestamp="1591482381637">
+    <state x="805" y="280" key="FileChooserDialogImpl/0.0.2048.1050/-1920.0.1920.1050@0.0.2048.1050" timestamp="1591711806592" />
+    <state width="2027" height="279" key="GridCell.Tab.0.bottom" timestamp="1591713846512">
       <screen x="0" y="0" width="2048" height="1050" />
     </state>
-    <state width="2027" height="279" key="GridCell.Tab.0.bottom/0.0.2048.1050/-1920.0.1920.1050@0.0.2048.1050" timestamp="1591482381637" />
-    <state width="2027" height="279" key="GridCell.Tab.0.center" timestamp="1591482381637">
+    <state width="2027" height="279" key="GridCell.Tab.0.bottom/0.0.2048.1050/-1920.0.1920.1050@0.0.2048.1050" timestamp="1591713846512" />
+    <state width="2027" height="279" key="GridCell.Tab.0.center" timestamp="1591713846511">
       <screen x="0" y="0" width="2048" height="1050" />
     </state>
-    <state width="2027" height="279" key="GridCell.Tab.0.center/0.0.2048.1050/-1920.0.1920.1050@0.0.2048.1050" timestamp="1591482381637" />
-    <state width="2027" height="279" key="GridCell.Tab.0.left" timestamp="1591482381636">
+    <state width="2027" height="279" key="GridCell.Tab.0.center/0.0.2048.1050/-1920.0.1920.1050@0.0.2048.1050" timestamp="1591713846511" />
+    <state width="2027" height="279" key="GridCell.Tab.0.left" timestamp="1591713846511">
       <screen x="0" y="0" width="2048" height="1050" />
     </state>
-    <state width="2027" height="279" key="GridCell.Tab.0.left/0.0.2048.1050/-1920.0.1920.1050@0.0.2048.1050" timestamp="1591482381636" />
-    <state width="2027" height="279" key="GridCell.Tab.0.right" timestamp="1591482381637">
+    <state width="2027" height="279" key="GridCell.Tab.0.left/0.0.2048.1050/-1920.0.1920.1050@0.0.2048.1050" timestamp="1591713846511" />
+    <state width="2027" height="279" key="GridCell.Tab.0.right" timestamp="1591713846512">
       <screen x="0" y="0" width="2048" height="1050" />
     </state>
-    <state width="2027" height="279" key="GridCell.Tab.0.right/0.0.2048.1050/-1920.0.1920.1050@0.0.2048.1050" timestamp="1591482381637" />
+    <state width="2027" height="279" key="GridCell.Tab.0.right/0.0.2048.1050/-1920.0.1920.1050@0.0.2048.1050" timestamp="1591713846512" />
     <state x="526" y="168" key="SettingsEditor" timestamp="1585667737143">
       <screen x="0" y="0" width="2048" height="1050" />
     </state>

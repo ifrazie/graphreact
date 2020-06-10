@@ -29,6 +29,10 @@ const typeDefinitions = `
         user: UserInput!
     ): Post
   }
+  
+  type RootQuery {
+    posts: [Post]
+  }
 
   schema {
     query: RootQuery
